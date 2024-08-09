@@ -1,0 +1,9 @@
+.about-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-flex div{
+  width: 100%;
+  text-align: justify;
+}

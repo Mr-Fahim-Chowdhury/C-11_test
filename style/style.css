@@ -1,0 +1,221 @@
+/* -----------------Global----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,500&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+
+section{
+  padding: 50px 0;
+}
+img{
+  width: 100%;
+}
+h1{
+  font-size: 70px;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 30px;
+}
+span{
+  background-color: red;
+  height: 5px;
+  width: 160px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+/* -----------------Header_section----------------- */
+header{
+  background-image: url(../image/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: #000000ad;
+}
+
+/*Header_section(sub-section_navbar)*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+nav h4{
+  color: white;
+  font-size: 24px;
+}
+
+nav h4 span{
+  font-weight: 100;
+  background-color: rgba(255, 0, 0, 0);
+  height: 0px;
+  width: 0px;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li{
+  margin: 0 0 0 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 600;
+}
+
+/*Header_section(sub-section_banner)*/
+.banner{
+ padding: 200px 0 150px;
+ text-align: center;
+ color: white;
+}
+.banner h3{
+ font-style: italic;
+ margin: 0 0 10px 0;
+}
+
+
+.banner button{
+ background-color: #d11818;
+ color: white;
+ padding: 15px 30px;
+ font-size: 20px;
+ letter-spacing: 2px;
+ border: 1px solid #d11818;
+ border-radius: 25px;
+ transition: all 0.3s linear;
+}
+
+.banner button:hover{
+  background-color: #d1181800;
+  letter-spacing: 3px; 
+}
+
+/* -----------------Up-Coming-Events_Section----------------- */
+.event-main{
+ text-align: center;
+}
+/* Up-Coming-Events(Sub-section_Heading)*/
+.event-main h2{
+  margin: 0;
+  font-size: 40px;
+}
+
+/* Up-Coming-Events(Sub-section_Cards)*/
+.event{
+ display: flex;
+ width: 80%;
+ margin: 30px auto 0px;
+}
+.event-box{
+  width: 50%;
+  margin: 20px;
+}
+.event-box img{
+ height: 350px;
+ object-fit: cover;
+ border-radius: 10px;
+ box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.event-box h4{
+ font-size: 20px;
+ margin: 25px 0 20px 0 ;
+}
+.event-box a{
+ color: #d11818;
+ text-decoration: none;
+ letter-spacing: 2px;
+ font-size: 20px;
+}
+
+/* -----------------Explore-The-World_Section----------------- */
+.explore-section{
+  background-image: url(../image/explore.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 255, 0.464);
+  color: white;
+  background-attachment: fixed;
+}
+.explore-main{
+  display: flex;
+  padding: 50px 0;
+}
+.explore{
+  width: 50%;
+}
+.explore h1{
+  margin-bottom: 0px;
+}
+.explore p {
+  margin: 40px 0px;
+}
+.explore a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* -----------------Tour-&-Destination_Section----------------- */
+.tours-main{
+ display: flex;
+}
+.tour{
+ padding: 12px;
+}
+.tour h3{
+  margin: 0;
+}
+.tour p{
+  margin: 30px 0px;
+}
+
+.small{
+  height: 300px;
+  object-fit: cover;
+  margin: 0 0 20px 0;
+}
+.large{
+  height: 370px;
+  object-fit: cover;
+  margin: 0 0 20px 0;
+}
+/* -----------------Footer_Section----------------- */
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 60px 0px;
+  text-align: center;
+}
+.fab{
+  font-size: 40px;
+  color: white;
+  margin: 10px;
+}
